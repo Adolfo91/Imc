@@ -1,0 +1,160 @@
+/*HELPERS (AJUDA A ESTRUTURAR O HTML)*/
+.oculta{font-size: 0px;
+	margin: 0px;
+}
+.btn-padrao{
+	background-color: #ccc !important;
+	color: #000 !important;
+	padding: 10px 34px;
+	font-size: 18px; 
+	border: 1px solid #104A7D;
+	width: 100%;
+	font-weight: bold;
+}
+.divider{border: 1px solid #104A7D}
+.clear{
+	clear: both;
+}
+
+/*PADDINGS*/
+.padding-20{ padding: 20px; }
+.padding-10{ padding: 10px; }
+.padding-5{ padding: 5px; }
+
+
+/* RESETS (TIRAR ALGUMAS CONFIGURAÇÕES DO BOOTSTRAP)*/
+.form-padrao{
+
+}
+.form-padrao input[type="text"],[type="password"]{
+	border-radius: 0px;
+	height: 50px;
+	border: 1px solid #ccc;
+	color: #104A7D;
+	font-size: 16px;
+}
+.form-padrao input[type="submit"]{
+
+}
+a:hover{text-decoration: none;
+	color: #33b5e5 !important;
+}
+	/*	TIVE PROBLEMAS COM DIVS O CLEAR SEMPRE DEIXA UMA DIV ABAIXO DA OUTRA*/
+
+/*FONTS*/
+
+/*CORES*/
+
+/*BACKGROUNDS*/
+.bg-padrao{background-color: #ccc;}
+.bg-header{background-color: #104A7D;color: #ffffff;}
+.bg-painel{
+	color: #1B2844;
+	background-color: #F7921E;  
+
+}
+
+
+/*FORMULARIO LOGIN*/
+.login{margin: 150px auto;max-width: 550px;text-align: center;background-color: #ffffff;}
+.conteudo-login{padding: 34px 5px 12px 5px;}
+.topo-login{background-color: #104A7D;color: #ffffff;padding: 3px;}
+.titulo-login{font-size: 24px;}
+.form-login{}
+.form-login input{}
+.recuperar-senha{float: right;}
+
+
+/******************************************************************* 
+PAINEL */
+
+
+
+/*TOPO PAINEL*/
+.topo-painel{
+	background-color: #fff;
+	padding: 10px 6px;
+	float: left;
+	width: 100%
+}
+.logo-painel{
+	max-width: 150px;
+}
+.acoes-painel{
+	float: right;
+}
+.acoes-painel .sair{
+	
+}
+.icon-acoes-painel{
+	margin: 10px;
+	float: left;
+}
+/**/
+
+/*MENU*/
+.menu-painel{background-color: #1B2844;margin: 0px !important;min-height: 805px; }
+.menu-painel-ul{
+	list-style: none;
+	padding: 0px;
+	padding: 0px;
+}
+.menu-painel-ul li{
+	margin: 22px;
+	font-size: 16px;
+}
+.menu-painel-ul a{
+	color: #fff;
+	margin: 5px 5px 5px 5px;
+}
+
+
+/*CONTEUDO*/
+.conteudo{
+	padding: 5px; 
+}
+.titulo-pg-painel{
+	font-size:24px; 
+	color: #104A7D; 
+}
+.conteudo-listagens{}
+.cont{background-color:#fff;
+	padding: 5px;
+	border-radius: 4px;
+	min-height: 800px; 
+}
+div .relatorio{
+	font-size: 34px;
+	text-align: center;
+	color: #104A7D;
+	padding: 10px 0px;
+}
+
+.icone-ralatorio{
+	padding: 20px;
+	border-radius: 5px; 
+}
+
+p.relatorio{
+	font-size: 18px;
+}
+
+.edit{
+background-color: #1C8CCA; 
+color: #fff;
+border-radius: 3px;
+padding: 6px 8px;
+}
+.delete{
+background-color: #F00048;
+color: #fff;
+border-radius: 3px;
+padding: 6px 8px;
+}
+.btn-cadastrar{
+	background-color: #1C935B;
+	color: #fff;
+	padding: 10px 10px;
+	font-size: 18px;
+	margin: 0px;
+}
