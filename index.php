@@ -4,32 +4,36 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>IMC</title>
 
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/imc.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    
 <?php
 include 'includes/header.php';
 ?>
+<div class="container">
+<div class="page-header">
+<h1>O que seria o IMC?</h1>
+</div>
+<p class="lead">
 
+IMC é uma sigla utilizada para Índice de Massa Corporal. O Índice de Massa Corporal é uma medida utilizada para medir a obesidade adotada pela Organização Mundial de Saúde (OMS). É o padrão internacional para avaliar o grau de obesidade.
 
+</div>
 
-
+</div>
 <?php
 include 'includes/footer.php';
 ?>
-</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
