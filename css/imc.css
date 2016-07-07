@@ -1,17 +1,22 @@
-.container{
-	height: 500px;
+.conteudo{
+	height: 530px;
+}
+
+.active{
+	border-bottom: 2px solid #000;
 }
 
 .footer{
-	background-color:#F8F8F8; 
+	background-color:#F8F8F8;
+	height: 65px; 
 }
 
 .text-muted{
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 form{
-	padding-top: 100px;
+	padding-top: 60px;
 }
 
 .center-h4{
