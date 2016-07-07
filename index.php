@@ -20,14 +20,15 @@
 include 'includes/header.php';
 ?>
 <div class="container">
-<div class="page-header">
-<h1>O que seria o IMC?</h1>
-</div>
-<p class="lead">
 
-IMC é uma sigla utilizada para Índice de Massa Corporal. O Índice de Massa Corporal é uma medida utilizada para medir a obesidade adotada pela Organização Mundial de Saúde (OMS). É o padrão internacional para avaliar o grau de obesidade.
-
-</div>
+<?php
+if(isset($_GET['page'])){
+	$page = $_GET['page'];
+}else{
+	$page = 'about';
+}
+include 'pages/'.$page.'.php';
+?>
 
 </div>
 <?php
@@ -36,6 +37,7 @@ include 'includes/footer.php';
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="js/jquery-2.2.4.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
