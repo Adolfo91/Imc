@@ -5,7 +5,7 @@
 		$nome = $nome == ""? "Usuário": $nome;
 		$msg;
 		$tipoMsg;
-		$resultado = $peso /($altura^2);
+		$resultado = $peso /($altura * $altura);
 		$massaCorporal;
 
 		if($resultado < 20.7){
@@ -42,7 +42,7 @@
 		$nome = $nome == ""? "Usuário": $nome;
 		$msg;
 		$tipoMsg;
-		$resultado = $peso /($altura^2);
+		$resultado = $peso /($altura * $altura);
 		$massaCorporal;
 
 		if($resultado < 19.1){
