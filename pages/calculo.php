@@ -66,6 +66,7 @@ include 'pages/modal.php';
 	<div class="form-group">
 	<div class="col-md-6 col-md-offset-3">
 		<button class="btn btn-primary" value="calcular" name="calcular" type="submit">Calcular</button>
+		<button class="btn btn-primary" value="limpar" name="limpar" type="reset">Limpar</button>
 
 </div>
 	</div>
