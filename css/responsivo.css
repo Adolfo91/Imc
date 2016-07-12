@@ -1,15 +1,7 @@
-/*QUANDO A RESOLUÇÃO ESTIVER NO NESSA CONFIGURAÇÃO ELE ENTRA NESTE ESCOPO*/
-@media screen and (max-width: 1000px){
-	.menu-painel{
-		min-height: 45px;
-	}
-	.menu-painel ul{
-		max-height: 100%;
-	}
-	.menu-painel li{
-		display: inline-table;
-		margin: 22px 10px;
-	}
+@media screen and (max-width: 1024px){
+	.conteudo{
+	height: 700px;
+}
 
 
 }

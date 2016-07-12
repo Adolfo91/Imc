@@ -22,3 +22,35 @@ form{
 .center-h4{
 	text-align: center;
 }
+
+.close-modal{
+	color: #000;
+}
+
+.atention-header{
+	color:#fff;
+	text-align: center;
+}
+
+.leve{
+	background-color:#337AB7;
+}
+
+.normal{
+	background-color:#5CB85C;
+}
+
+.perigo{
+	background-color:#F0AD4E;
+}
+
+.risco{
+	background-color:#D9534F;
+}
+
+
+.label-radio{
+	display: inline-block;
+	padding: 20px 11px;
+
+}

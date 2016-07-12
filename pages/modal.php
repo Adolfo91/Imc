@@ -1,18 +1,26 @@
-<div class="modal fade" role="dialog">
+<div class="modal fade" role="dialog" id="imc-modal">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class=<?php echo isset($resultado) ? 'modal-header '.$resultado[1]:'modal-header'?>>
-				<button type="button" class="close" data-dimiss="modal" arial-blade="Close"><span aria-hidden="true"></span></button>
-				<h4>Resultado</h4>
+			<div class="modal-header">
+				<button type="button" class="close close-modal" data-dimiss="modal" arial-blade="Close" onclick="closeModal()"><span aria-hidden="true">&times</span></button>
+				<h4 class="atention-header">Atenção</h4>
 			</div>
 			<div class="modal-body">
-				<?php 
-					$resultado[2];
-				?>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-default" data-dimiss="modal">Fechar</button>
+				<button class="btn btn-default" data-dimiss="modal" onclick="closeModal()">Fechar</button>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	
+	function closeModal(){
+		$("#imc-modal").removeClass("in").removeAttr("style");
+		$("body").removeClass("modal-open");
+		$(".modal-backdrop").remove();
+
+	}
+
+</script>
