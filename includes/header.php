@@ -18,8 +18,8 @@
         <li class="dropdown">
          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosso Contato <span class="caret"></span></a>
           <ul class="dropdown-menu">
-           <li><a href="http://www.facebook.com/adolfo.pesoti" target="_blank">Adolfo</a></li>
-            <li><a href="http://www.facebook.com/kako.ferrare" target="_blank">Kako</a></li>
+           <li><a href="http://www.facebook.com/adolfo.pesoti" target="_blank"><span class="fa fa-facebook-square padding-right"></span>Adolfo</a></li>
+            <li><a href="http://www.facebook.com/kako.ferrare" target="_blank"><span class="fa fa-facebook-square padding-right"></span>Kako</a></li>
           </ul>
         </li>
       </ul>
