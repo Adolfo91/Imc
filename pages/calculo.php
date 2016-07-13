@@ -25,7 +25,7 @@ include 'pages/modal.php';
 ?>
 
 <form method="POST" class="form-horizontal" action="">
-<h4 class="center-h4">Insira seus dados para calcular seu indice de massa corporea</h4>
+<h4 class="center-h4">Insira seus dados para calcular seu indice de massa corporal</h4>
 <br>
 	
 
